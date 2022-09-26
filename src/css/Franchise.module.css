@@ -1,0 +1,622 @@
+label {
+    cursor: pointer;
+}
+
+input {
+    vertical-align: top;
+    outline: none;
+}
+
+label {
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: -0.025em;
+}
+
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+.franchise {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;  
+}
+
+/* title */
+
+.f__title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+
+.title {
+    width: 1200px;
+    height: 81.2px;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 42px;
+    font-family: jhr;
+}
+
+.line {
+    display: inline-block;
+    text-align: center;
+    margin-top: 25px;
+    width: 30px;
+    border-bottom: 3.5px solid;
+}
+
+/* img */
+
+.info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+.info__img01 {
+    background: url(/public/images/fran_infobox_bg_1.png) no-repeat 50% 50%;
+}
+
+.info__img02 {
+    background: url(/public/images/fran_infobox_bg_2.png) no-repeat 50% 50%;
+}
+
+.info__img03 {
+    background: url(/public/images/fran_infobox_bg_3.png) no-repeat 50% 50%;
+}
+
+.info__img04 {
+    background: url(/public/images/fran_infobox_bg_4.png) no-repeat 50% 50%;
+}
+
+.info__img05 {
+    background: url(/public/images/fran_infobox_bg_5.png) no-repeat 50% 50%;
+}
+
+.info__img06 {
+    background: url(/public/images/fran_infobox_bg_6.png) no-repeat 50% 50%;
+}
+
+.info__img__text {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    transform: translate(0, 24%);
+}
+
+.info__img__text dt {
+    font-weight: 300;
+    font-size: 44px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.info__img__text dd {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+.text__dd {
+    padding-top: 30px;
+}
+
+/* 가맹입지조건 */
+.s__title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 374px;
+    padding-top: 60px;
+
+}
+
+.s__text {
+    height: 114px;
+    font-size: 18px;
+    line-height: 38px;
+    color: #555;
+    letter-spacing: -1px;
+    margin-top: 30px;
+}
+
+/* 가맹절차 */
+.sb__title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 990px;
+    background: #f6f6f6;
+    padding: 80px 0;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.step__box {
+    height: 358px;
+    margin-bottom: 90px;
+}
+
+.step__box>h3 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 48px;
+    color: #333;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.step__box>ul>li:nth-child(5) .item__box{
+    padding: 22px 0;
+}
+
+.item__box {
+    float: left;
+    width: calc(25% - 20px);
+    height: 114px;
+    margin: 10px;
+    padding: 32px 0;
+    text-align: center;
+    background: #fff;
+}
+
+.item__box>span {
+    font-family: cabo;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: #226140;
+    letter-spacing: 1px;
+}
+
+.item__box>p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+    letter-spacing: -0.5px;
+}
+
+.item__box>em {
+    font-style: normal;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: -0.5px;
+}
+
+/* 본사지원사항 */
+.item2__box {
+    float: left;
+    width: calc(20% - 20px);
+    margin: 0 10px;
+    text-align: center;
+    display: block;
+    white-space:pre-line;
+}
+
+.item2__bg{
+    position: relative;
+    width: 100%;
+    height: 224px;
+    background: #fff;
+}
+
+.item2__bg>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.item2__box>span {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333;
+    letter-spacing: -1px;
+}
+
+/* 가맹 관련 FAQ */
+.faq__title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 2000px;
+    padding: 80px 0;
+    margin-bottom: 100px;
+}
+
+.faq {
+    width: 1200px;
+    height: 81.2px;
+    text-align: center;
+}
+
+.faq__line {
+    display: inline-block;
+    margin-top: 25px;
+    width: 30px;
+    border-bottom: 3.5px solid;
+    margin-bottom: 40px;
+}
+
+.sb__wrap{
+    width: 1200px;
+    height: 700px;
+}
+
+.sb__search {
+    position: relative;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    height: 60px;
+}
+
+.sb__search>span {
+    font-size: 14px;
+    color: #333333;
+    line-height: 60px;
+    padding-left: 20px;
+    float: left;
+}
+
+.sb__search>span>strong{
+    color: #f43e26;
+}
+
+.fieldset {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.fieldset>* {
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.fieldset>legend {
+    display: none;
+}
+
+.where {
+    border: 1px solid #ddd;
+    width: 130px;
+    overflow: hidden;
+    background: url(/public/images/sb_slt_spr.jpg) no-repeat 92% center;
+}
+
+.where>select {
+    width: 130%;
+    height: 40px;
+    border: none;
+    background: none;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.inp {
+    position: relative;
+    border: 1px solid #ddd;
+    padding-right: 40px;
+    margin-left: 10px;
+}
+
+.keyword {
+    width: 100%px;
+    border: none;
+    background: none;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.sbm {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background: url(/public/images/sb_search_sbm.jpg) no-repeat center center;
+    border: none;
+    text-indent: -999em;
+}
+
+
+.faq__list {
+    border-top: 1px solid #000000;
+}
+
+.faq__card {
+    border-bottom: 1px solid #ddd;
+}
+
+/* 가맹상담 */
+.formWrap {
+    text-align: left;
+    width: 100%;
+    margin: 0 10px;
+    height: 1260px;
+}
+
+.form {
+    float: left;
+}
+
+.lef {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.form__t {
+    height: 160px;
+}
+
+.form__t>h4 {
+    font-family: jhr;
+    font-size: 38px;
+    letter-spacing: -0.02em;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.form__t>h4>strong {
+    font-weight: 500;
+    color: #175436;
+}
+
+.form__t>p {
+    font-size: 18px;
+    line-height: 10px;
+    color: #666;
+    letter-spacing: -0.04em;
+    margin-bottom: 10px;
+}
+
+.form__t>span {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #175436;
+    letter-spacing: -1.8px;
+    margin-top: 5px;
+}
+
+/* table */
+.inqTable {
+    width: 100%;
+    border-top: 1px solid #2e2e2e;
+    color: #666;
+}
+
+.inqTable>tbody>tr>th {
+    width: 110px;
+    background: #f3f4f7;
+    font-size: 15px;
+    color: #666;
+    font-weight: normal;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.inqTable>tbody>tr>td {
+    border-bottom: 1px solid #ddd;
+    padding: 14px 10px;
+}
+
+.typeText {
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 35px;
+    text-indent: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inqTable select {
+    border: 1px solid #ddd;
+    min-width: 180px;
+    height: 35px;
+}
+
+.tel .typeText {
+    width: 30%;
+}
+
+.mail .typeText {
+    width: 32%;
+}
+
+.mail select {
+    min-width: inherit;
+    width: 29%;
+    margin-left: 2%;
+}
+
+.poli {
+    white-space: pre-wrap;
+    margin-top: 10px;
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    height: 150px;
+    overflow-y: scroll;
+    color: #666;
+}
+
+.labelWrap {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.labelWrap p {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.btnWrap {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #175436;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+/* 가맹설명회 예약하기 */
+
+.rig {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.rig__t {
+    height: 160px;
+}
+
+.rig__t>h4 {
+    font-family: jhr;
+    font-size: 38px;
+    letter-spacing: -0.02em;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rig__t>h4>strong {
+    font-weight: 500;
+    color: #175436;
+}
+
+.rig__t>p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #666;
+    letter-spacing: -1.4px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.rig__t .tel {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #175436;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+}
+
+.tel {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #175436;
+    letter-spacing: -1px;
+}
+
+.hyp {
+    display: inline-block;
+    vertical-align: middle;
+    width: 5%;
+    line-height: 35px;
+    text-align: center;
+}
+
+.inqLocImg {
+    padding-top: 20px;
+}
+
+.question {
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.question_mark {
+    position: relative;
+    padding: 20px 0 20px 60px;
+    background: url(/public/images/sb_ico_faq_q.png) no-repeat 20px center;
+  }
+
+
+
+.answer_mark {
+    position: relative;
+    width: 60px;
+    height: 40px;
+    padding: 20px 0 20px 60px;
+    background: #f3f4f7 url(/public/images/sb_ico_faq_a.png) no-repeat 20px center;
+    border-top: 1px solid #ddd;
+}
+
+.answer_mark>p {
+    
+}

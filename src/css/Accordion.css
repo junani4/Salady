@@ -1,0 +1,20 @@
+.accordion-collapse {
+    display: block;
+    position: relative;
+    padding: 20px 50px 20px 60px;
+    background: #f3f4f7 url(/public/images/sb_ico_faq_a.png) no-repeat 20px center;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-body {
+    border-style: none;
+    text-align: left;
+    padding: 12px 0 13px 0;
+}
+
+.accordion-body span {
+    font-size: 14px;
+    line-height: normal;
+    font-family:나눔고딕;
+    color: #363636;
+}

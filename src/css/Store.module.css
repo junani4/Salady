@@ -1,0 +1,171 @@
+.store {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;  
+}
+
+/* title */
+
+.store__title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+
+.title {
+    width: 1200px;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 42px;
+    font-family: jhr;
+}
+
+.line {
+    display: inline-block;
+    text-align: center;
+    margin-top: 25px;
+    width: 30px;
+    border-bottom: 3.5px solid;
+}
+
+
+/* service */
+.service {
+    width: 100%;
+    height: 940px;
+    background-color: #F6F6F6;
+    padding-top: 80px;
+}
+
+.s__title {
+    width: 100%;
+    height: 54px;
+    text-align: center;
+    color: #333;
+}
+
+.s__title h2 {
+    font-size: 42px;
+}
+
+
+/* 이용가능 서비스 이미지 */
+.s__box {
+    width: 1200px;
+    height: 128px;
+    margin: 30px auto;
+}
+
+.s__box>ul>li.on {
+    cursor: pointer;
+    background-color: #17643f;
+    color: #fff;
+}
+
+.items {
+    float: left;
+    width: 14.28%;
+}
+
+.item__box {
+    width: 130px;
+    height: 128px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 10px 15px;
+    box-sizing: border-box;
+    background: #fff;
+    cursor: pointer;
+}
+
+.item__box>img {
+    width: 48px;
+    height: 48px;
+}
+
+.item__box>p {
+    font-size: 16px;
+    color: #333;
+    line-height: 30px;
+    margin-top: 10px;
+    letter-spacing: -1px;
+}
+
+/* all */
+.allStore {
+    padding: 80px 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.map__table {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.map__table th {
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+    padding: 15px 5px;
+    text-align: center;
+    background: #175436;
+    font-weight: normal;
+}
+
+.map__table td {
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    text-align: center;
+    padding: 15px 5px;
+    border-bottom: 1px solid #ddd;
+    letter-spacing: -1.0px;
+}
+
+.map__table .add {
+    text-align: left;
+}
+
+.map__table .tag1 {
+    background: url(/public/images/map_tag_1.png) no-repeat;
+}
+
+.map__table .tag2 {
+    background: url(/public/images/map_tag_2.png) no-repeat;
+}
+
+.map__table .tag3 {
+    background: url(/public/images/map_tag_3.png) no-repeat;
+}
+
+.map__table .tag4 {
+    background: url(/public/images/map_tag_4.png) no-repeat;
+}
+
+.map__table .tag5 {
+    background: url(/public/images/map_tag_5.png) no-repeat;
+}
+
+.map__table .tag6 {
+    background: url(/public/images/map_tag_6.png) no-repeat;
+}
+
+.map__table .tag7 {
+    background: url(/public/images/map_tag_7.png) no-repeat;
+}
+
+.map__table td span {
+    width: 24px;
+    height: 24px;
+    margin: 3px;
+    display: inline-block;
+}

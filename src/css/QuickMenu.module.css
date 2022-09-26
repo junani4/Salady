@@ -1,0 +1,27 @@
+.quickMenu {
+    position: fixed;
+    bottom: 20px;
+    right: 14px;
+    width: 213px;
+    z-index: 9999;
+}
+
+.quickMenu>ul {
+    font-family: empty;
+    font-size: 0;
+}
+
+.quickMenu>ul>li {
+    margin-top: 10px;
+}
+
+.quickMenu a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.quickMenu img {
+    width: 213px;
+    height: 88px;
+    cursor: pointer;
+}

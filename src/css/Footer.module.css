@@ -1,0 +1,56 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90.8px;
+    background: #000;
+    color: #ccc;
+}
+
+.ftb {
+    width: 100%;
+    height: 48px;
+    margin-top: 8px;
+    color: #fff;
+}
+
+.ftb__in {
+    width: 1200px;
+    height: 52px;
+    line-height: 52px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ftb__in span {
+    font-size: 14px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.line {
+    border: 1px solid #ccc;
+    width: 1px;
+    height: 1px;
+}
+
+
+.ft {
+    width: 100%;
+    height: 42.8px;
+    padding-bottom: 8px;
+    background-color: #000;
+}
+
+.ft__in {
+    width: 1200px;
+    height: 24.8px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ft__in span {
+    font-size: 14px;
+    margin-right: 20px;
+}

@@ -1,0 +1,202 @@
+.app {
+    position: relative;
+    width: 1200px;
+    margin: 70px auto 100px;
+}
+
+/* title */
+
+.app__title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+
+.title {
+    position: relative;
+    font-family: jhr;
+    font-size: 42px;
+    line-height: 1.1em;
+    letter-spacing: -0.02em;
+    color: #333;
+    padding-bottom: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+.title h1 {
+    font-size: 42px;
+}
+
+.line {
+    display: inline-block;
+    text-align: center;
+    margin-top: 25px;
+    width: 30px;
+    border-bottom: 3.5px solid;
+}
+
+.sub__tit {
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: -0.025em;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+/* 개인정보 수집 */
+.sb__form {
+    font-family: Spoqa Han Sans;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+.sb__form fieldset {
+    margin-bottom: 50px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.sb__form legend {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.privacy {
+    height: 200px;
+    overflow-y: scroll;
+    background: #f3f4f7;
+    border: 1px solid #ddd;
+    padding: 15px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.agree {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    cursor: pointer;
+    vertical-align: top;
+    outline: none;
+}
+
+.agree input {
+    border: none;
+    vertical-align: middle; 
+}
+
+/* table */
+
+.inqTable {
+    width: 100%;
+    border-top: 1px solid #2e2e2e;
+    color: #666;
+}
+
+.inqTable>tbody>tr>th {
+    width: 110px;
+    background: #f3f4f7;
+    font-size: 15px;
+    color: #666;
+    font-weight: normal;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.inqTable>tbody>tr>td {
+    border-bottom: 1px solid #ddd;
+    padding: 14px 10px;
+    text-align: left;
+}
+
+.typeText {
+    display: inline-block;
+    vertical-align: middle;
+    outline: none;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    background: #ffffff;
+    border: 1px solid #dadada;
+}
+
+.inqTable select {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 0 0 10px;
+    background: #ffffff;
+    color: #666666;
+    border: 1px solid #dadada;
+}
+
+.tel .typeText {
+    width: 150px;
+}
+
+.mail .typeText {
+    width: auto;
+}
+
+.mail>select {
+    display: inline-block;
+    vertical-align: middle;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 0 0 10px;
+    background: #ffffff;
+    border: 1px solid #dadada;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.inqTable textarea {
+    width: 100%;
+    height: 300px;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+}
+
+/* sb푸터 */
+.sb__footer {
+    position: relative;
+    margin-top: 30px;
+    min-height: 35px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center input {
+    background: #2e2e2e;
+    border: 1px solid #2e2e2e;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    padding: 0 20px !important;
+}
